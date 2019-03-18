@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{8C8AA234-0FFF-4E47-AF83-C967E1F9FA13}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="MAPIConnector\MAPIConnector.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="MAPIConnector Test Application\TestApplication.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="MAPIConnector">
+        <MSBuild Projects="MAPIConnector\MAPIConnector.dproj"/>
+    </Target>
+    <Target Name="MAPIConnector:Clean">
+        <MSBuild Projects="MAPIConnector\MAPIConnector.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MAPIConnector:Make">
+        <MSBuild Projects="MAPIConnector\MAPIConnector.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TestApplication">
+        <MSBuild Projects="MAPIConnector Test Application\TestApplication.dproj"/>
+    </Target>
+    <Target Name="TestApplication:Clean">
+        <MSBuild Projects="MAPIConnector Test Application\TestApplication.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TestApplication:Make">
+        <MSBuild Projects="MAPIConnector Test Application\TestApplication.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="MAPIConnector;TestApplication"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="MAPIConnector:Clean;TestApplication:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="MAPIConnector:Make;TestApplication:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.638,C:\Projects\DBTech MAPIConnector\MAPIConnector\Unit2.pas=C:\Projects\DBTech MAPIConnector\MAPIConnector\EmailDataParametersParser.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.477,C:\Projects\DBTech MAPIConnector\MAPIConnector\Unit2.pas=C:\Projects\DBTech MAPIConnector\MAPIConnector\MAPISender.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.994,=C:\Projects\DBTech MAPIConnector\MAPIConnector\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.527,=C:\Projects\DBTech MAPIConnector\MAPIConnector\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.390,C:\Projects\DBTech MAPIConnector\MAPIConnector\EmailDataParsers\EmailDataParser.pas=C:\Projects\DBTech MAPIConnector\MAPIConnector\EmailDataParsers\IEmailDataParser.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.684,C:\Users\alex\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\alex\Documents\Embarcadero\Studio\Projects\MAPIConnector.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.948,C:\Projects\DBTech MAPIConnector\MAPIConnector\Unit2.pas=C:\Projects\DBTech MAPIConnector\MAPIConnector\ParamHelper.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.341,C:\Projects\DBTech MAPIConnector\MAPIConnector\Unit2.pas=C:\Projects\DBTech MAPIConnector\MAPIConnector\EmailDataParsers\EmailDataFileParsers.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.284,=C:\Projects\DBTech MAPIConnector\MAPIConnector\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.746,C:\Projects\DBTech MAPIConnector\MAPIConnector\EmailDataParametersParser.pas=C:\Projects\DBTech MAPIConnector\MAPIConnector\EmailDataParsers\EmailDataParametersParser.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.094,C:\Users\alex\Documents\Embarcadero\Studio\Projects\MAPIConnector.dproj=C:\Projects\DBTech MAPIConnector\MAPIConnector\MAPIConnector.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.677,C:\Users\alex\Documents\Embarcadero\Studio\Projects\EmailData.pas=C:\Projects\DBTech MAPIConnector\MAPIConnector\EmailData.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.544,C:\Projects\DBTech MAPIConnector\MAPIConnector\EmailDataParsers\IEmailDataParser.pas=C:\Projects\DBTech MAPIConnector\MAPIConnector\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.508,=C:\Projects\DBTech MAPIConnector\MAPIConnector\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.588,=C:\Projects\DBTech MAPIConnector\MAPIConnector\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.382,=C:\Users\alex\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.428,C:\Users\alex\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\alex\Documents\Embarcadero\Studio\Projects\EmailData.pas</Transaction>
+  </Transactions>
+</BorlandProject>
